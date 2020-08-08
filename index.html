@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+		/>
+		<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Nothing+You+Could+Do&family=Courgette&family=GFS+Neohellenic&family=Open+Sans:wght@300&family=Open+Sans:wght@300&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+			crossorigin="anonymous"
+		/>
+
+		<link rel="stylesheet" href="css/styles.css" />
+		<title>Portafolio</title>
+	</head>
+	<body>
+		<div class="hero-image">
+			<div class="hero-text">
+				<h1 class="font-montserrat">Carlos Astorga</h1>
+				<p class="lead font-openSans">Desarrollador <span>web</span></p>
+				<div class="icons">
+					<ul>
+						<li>
+							<a href="#first"
+								><i class="fas fa-chevron-down text-white"></i
+							></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="divider">
+			<h2 class="display-4">Proyectos</h2>
+		</div>
+
+		<div id="first" class="container mt-3">
+			<div class="row">
+				<div class="col-md-7 spotlight">
+					<h2>Bug Tracker</h2>
+					<p>
+						Sistema de seguimiento de errores.
+					</p>
+					<span class="badge badge-pill badge-secondary">Laravel</span>
+					<span class="badge badge-pill badge-secondary">Bootstrap</span>
+					<span class="badge badge-pill badge-secondary">React</span>
+					<span class="badge badge-pill badge-secondary">Chart js</span>
+					<span class="badge badge-pill badge-secondary">Heroku</span>
+					<ul class="list-group list-group-flush mt-3">
+						<li class="list-group-item">Asignación de roles.</li>
+						<li class="list-group-item">Generación de gráficas.</li>
+						<li class="list-group-item">Subida y descarga de archivos.</li>
+						<li class="list-group-item">
+							Sistema de autenticación y autorización.
+						</li>
+						<li class="list-group-item">
+							Envío de correos para verificación de cuenta.
+						</li>
+					</ul>
+
+					<div class="icons mt-3">
+						<ul>
+							<li>
+								<a
+									data-toggle="tooltip"
+									title="Ver demo"
+									href="http://blooming-river-73518.herokuapp.com/login"
+									target="_blank"
+									><i class="fas fa-eye text-dark"></i
+								></a>
+							</li>
+							<li>
+								<a
+									data-toggle="tooltip"
+									title="Ver código"
+									href="https://github.com/CarlosAstorga/Bug-Tracker"
+									target="_blank"
+									><i class="fas fa-code text-dark"></i
+								></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-5">
+					<img src="images/bugtracker.png" style="width: 100%;" />
+				</div>
+			</div>
+		</div>
+		<footer class="divider bg-dark">
+			<div class="icons">
+				<ul>
+					<li>
+						<a
+							data-toggle="tooltip"
+							title="Ver perfil"
+							href="https://github.com/CarlosAstorga"
+							target="_blank"
+							><i class="fab fa-github text-white"></i
+						></a>
+					</li>
+					<li>
+						<a
+							data-toggle="tooltip"
+							title="Enviar correo"
+							href="mailto:carlosasthorga@gmail.com"
+							><i class="far fa-envelope text-white"></i
+						></a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+			integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+			integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://kit.fontawesome.com/f28e386e36.js"
+			crossorigin="anonymous"
+		></script>
+		<script>
+			$(function () {
+				$('[data-toggle="tooltip"]').tooltip();
+			});
+		</script>
+	</body>
+</html>
